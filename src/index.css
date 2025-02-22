@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: "Roboto Mono", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #714871f6;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+  color: white;
+  align-items: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.box {
+  backdrop-filter: blur(10px);
+  background-color: rgba(76, 46, 85, 0.146);
+  height: 75vh;
+  width: 28vw;
+  position: absolute;
+  left: 28%;
+  top: 17%;
+  border: 2px solid white;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.hdr {
+  margin: 20px;
+  margin-left:10% ;
+  margin-right: 7%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hdr input {
+  padding: 10px;
+  width: 18vw;
+  border-radius: 18px;
+  font-size: 1.5em;
+  background-color: white;
+}
+
+/*clear button for input*/
+
+.clear {
+  display: none;
+}
+
+.active .clear {
+  display: block;
+  position: absolute;
+  height: 20px;
+  top: 35px;
+  right: 97px;
+  background-color: aliceblue;
+  border-radius: 50%;
+}
+
+.hdr button {
+  background: whitesmoke;
+  border: 1px solid black;
+  border-radius: 40%;
+  cursor: pointer;
+}
+
+.hdr button:hover {
+  background-color: rgb(255, 255, 255, 0.188);
+}
+
+.hdr button img {
+  display: inline;
+  height: 3em;
+  width: 3em;
+}
+
+.main {
+  margin-top: 8%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.main h1 {
+  margin-top: 3%;
+  font-size: 3.5em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.info {
+  margin-top: 18%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hum img {
+  height: 40px;
+  width: 40px;
+}
+
+.wind img{
+  height: 40px;
+  width: 40px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 75px;
+}
+
+.clearbt {
+  position: absolute;
+  right: 98px;
+  top: 30px;
+}
+
+.clearbt img {
+  height: 25px;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(255, 255, 255, 0.188);
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(109, 109, 133);
+  border-radius: 18px;
+  display: none;
+}
